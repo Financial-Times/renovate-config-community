@@ -1,0 +1,34 @@
+{
+  "extends": [
+    ":npm",
+    ":separateMajorReleases",
+    ":combinePatchMinorReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticCommitsDisabled",
+    ":automergeDisabled",
+    ":ignoreModulesAndTests",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor"
+  ],
+  "timezone": "Europe/London",
+  "labels": [
+    "dependencies"
+  ],
+  "branchPrefix": "renovate-",
+  "rangeStrategy": "replace",
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": false,
+  "packageRules": [
+    {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "dependencyDashboardApproval": true
+    }
+  ]
+}
+
+
+
