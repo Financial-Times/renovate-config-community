@@ -17,7 +17,7 @@
     "dependencies"
   ],
   "branchPrefix": "renovate-",
-  "rangeStrategy": "replace",
+  "rangeStrategy": "pin",
   "dependencyDashboard": true,
   "dependencyDashboardApproval": false,
   "packageRules": [
