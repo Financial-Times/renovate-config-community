@@ -26,6 +26,13 @@
         "devDependencies"
       ],
       "dependencyDashboardApproval": true
+    },
+    {
+      "matchPackagePrefixes": [
+        "@aws-sdk/"
+      ],
+      "groupName": "@aws-sdk",
+      "groupSlug": "aws-sdk"
     }
   ]
 }
