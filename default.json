@@ -1,6 +1,7 @@
 {
   "extends": [
     ":npm",
+    ":docker",
     ":separateMajorReleases",
     ":combinePatchMinorReleases",
     ":ignoreUnstable",
@@ -8,6 +9,7 @@
     ":semanticCommitsDisabled",
     ":automergeDisabled",
     ":ignoreModulesAndTests",
+    ":pinAllExceptPeerDependencies",
     "group:monorepos",
     "group:recommended",
     "helpers:disableTypesNodeMajor"
@@ -19,14 +21,8 @@
   "branchPrefix": "renovate-",
   "rangeStrategy": "pin",
   "dependencyDashboard": true,
-  "dependencyDashboardApproval": false,
+  "dependencyDashboardApproval": true,
   "packageRules": [
-    {
-      "depTypeList": [
-        "devDependencies"
-      ],
-      "dependencyDashboardApproval": true
-    },
     {
       "matchPackagePrefixes": [
         "@aws-sdk/"
