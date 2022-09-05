@@ -29,6 +29,24 @@
       ],
       "groupName": "@aws-sdk",
       "groupSlug": "aws-sdk"
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "depTypeList": [
+        "dependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm: bump all non-major dependencies",
+      "groupSlug": "npm-all-minor-patch",
+      "dependencyDashboardApproval": false
     }
   ]
 }
