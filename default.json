@@ -45,7 +45,25 @@
         "patch"
       ],
       "groupName": "npm: bump all non-major dependencies",
-      "groupSlug": "npm-all-minor-patch",
+      "groupSlug": "npm-prod-dependencies",
+      "dependencyDashboardApproval": false
+    },
+    {
+      "matchDatasources": [
+        "npm"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "npm: bump all non-major devDependencies",
+      "groupSlug": "npm-dev-dependencies",
       "dependencyDashboardApproval": false
     }
   ]
