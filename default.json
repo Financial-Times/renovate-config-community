@@ -32,7 +32,8 @@
     },
     {
       "matchDatasources": [
-        "terraform"
+        "terraform-module",
+        "terraform-provider"
       ],
       "matchPackagePatterns": [
         "*"
