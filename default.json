@@ -32,6 +32,21 @@
     },
     {
       "matchDatasources": [
+        "terraform"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "terraform: bump all non-major dependencies",
+      "groupSlug": "terraform-prod-dependencies",
+      "dependencyDashboardApproval": false
+    },
+    {
+      "matchDatasources": [
         "npm"
       ],
       "matchPackagePatterns": [
