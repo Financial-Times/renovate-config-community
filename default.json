@@ -43,7 +43,22 @@
         "patch"
       ],
       "groupName": "terraform: bump all non-major dependencies",
-      "groupSlug": "terraform-prod-dependencies",
+      "groupSlug": "terraform-dependencies",
+      "dependencyDashboardApproval": false
+    },
+    {
+      "matchDatasources": [
+        "pypi"
+      ],
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "python: bump all non-major dependencies",
+      "groupSlug": "python-dependencies",
       "dependencyDashboardApproval": false
     },
     {
