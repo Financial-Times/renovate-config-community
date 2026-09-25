@@ -15,6 +15,7 @@
     "helpers:disableTypesNodeMajor"
   ],
   "timezone": "Europe/London",
+  "schedule": ["* 9 1-7 * 1"],
   "labels": [
     "dependencies"
   ],
